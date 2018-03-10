@@ -1,0 +1,10 @@
+[Unit]
+Description=Skippy task switcher
+After=xorg.target
+
+[Service]
+ExecStart=/home/max/Git/skippy-xd/skippy-xd --start-daemon
+Type=simple
+
+[Install]
+WantedBy=default.target
